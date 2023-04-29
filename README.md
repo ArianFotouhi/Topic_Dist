@@ -8,7 +8,9 @@ This NLP based application clusters the topics according to the input essay.
 
 #### LDA is applied and n_components is set to 7 as the number of toppics (we tested different numbers)
 
-It uses Latent Dirichlet Allocation (LDA) to categorize topics in an unsupervised manner ( file).
+#### Then top 15 words (highest probability) of each topic are shown that helps to guess the topic domain
+
+#### Lastly a user made sample is tested on the app
 
 
 #### NMF.ipynb
