@@ -2,5 +2,5 @@
 
 ### We calculated the coherence score on different number of topics.
 
-### Basically, the coherence score measure how much the words of a topic are semantically related. Also, the more coherence score indicates the better performance of topic modelling.
+### Basically, the coherence score measures how much the words of a topic are semantically related. Also, the more coherence score indicates the better performance of topic modelling.
 
