@@ -1,18 +1,5 @@
-## This NLP based application clusters the topics according to the input essay. 
+## In this branch the articles topic modelling is performed using LDA for an unkown number of topics.
 
-### LDA.ipynb:
+### We calculated the coherence score on different number of topics.
 
-#### Words are vectorized using CountVectorizer technique
-#### LDA is applied and n_components is set to 7 as the number of toppics (we tested different numbers)
-#### Then top 15 words (highest probability) of each topic are shown that helps to guess the topic domain
-#### Lastly a user made sample is tested on the app
-
-
-
-
-### NMF.ipynb:
-
-#### Words are vectorized using TFIDF technique
-#### NMF is applied and n_components is set to 7 as the number of toppics (we tested different numbers)
-#### Then top 15 words (highest probability) of each topic are shown that helps to guess the topic domain
-#### Lastly a user made sample is tested on the app
+### Basically, the coherence score measures how much the words of a topic are semantically related. Also, the more coherence score indicates the better performance of topic modelling.
